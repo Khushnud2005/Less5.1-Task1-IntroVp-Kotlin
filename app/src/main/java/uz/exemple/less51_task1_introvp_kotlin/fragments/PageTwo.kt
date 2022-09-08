@@ -47,11 +47,11 @@ class PageTwo : Fragment() {
 
         val tv_title = view.findViewById<TextView>(R.id.tv_title_f2)
         val tv_desc = view.findViewById<TextView>(R.id.tv_desc_f2)
-        val tv_skip = view.findViewById<TextView>(R.id.tv_skip_f2)
+
         tv_title.text = "Safe, Trusted & Fully Secure"
         tv_desc.text = "Encrypted transactions mean your payments & Privacy and protected."
 
-        tv_skip.setOnClickListener {openMainActivity()        }
+
     }
 
     fun openMainActivity() {

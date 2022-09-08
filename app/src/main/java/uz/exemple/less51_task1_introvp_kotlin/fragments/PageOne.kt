@@ -49,11 +49,11 @@ class PageOne : Fragment() {
 
         val tv_title = view.findViewById<TextView>(R.id.tv_title_f1)
         val tv_desc = view.findViewById<TextView>(R.id.tv_desc_f1)
-        val tv_skip = view.findViewById<TextView>(R.id.tv_skip_f1)
+        //val tv_skip = view.findViewById<TextView>(R.id.tv_skip_f1)
         tv_title.text = "Say Hello to Global Top - Up"
         tv_desc.text = "Send mobile top-up to more then 500 networks in over 140 countries."
 
-        tv_skip.setOnClickListener { openMainActivity() }
+        /*tv_skip.setOnClickListener { openMainActivity() }*/
     }
 
     fun openMainActivity() {

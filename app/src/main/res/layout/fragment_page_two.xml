@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4">
+            android:layout_weight="6">
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="3"
+            android:layout_weight="4"
             android:gravity="center"
             android:orientation="vertical"
             android:paddingLeft="25dp"
@@ -57,51 +57,7 @@
                 android:layout_marginTop="15dp"/>
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:paddingTop="25dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/circle"
-                android:text="      "
-                android:textSize="8sp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/circle_brushed"
-                android:text="      "
-                android:textSize="8sp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/circle"
-                android:text="      "
-                android:textSize="8sp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:gravity="center_horizontal"
-            android:padding="25dp">
-            <TextView
-                android:id="@+id/tv_skip_f2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Skip"
-                android:textColor="#CCCFF5"
-                android:textSize="18sp"/>
-        </LinearLayout>
 
     </LinearLayout>
 

@@ -46,11 +46,11 @@ class PageThree : Fragment() {
     fun initViews(view:View){
         val tv_title = view.findViewById<TextView>(R.id.tv_title_f3)
         val tv_desc = view.findViewById<TextView>(R.id.tv_desc_f3)
-        val tv_start = view.findViewById<Button>(R.id.btn_start)
+
         tv_title.text = "Safe, Trusted & Fully Secure"
         tv_desc.text = "Encrypted transactions mean your payments & Privacy and protected."
 
-        tv_start.setOnClickListener { openMainActivity() }
+
     }
 
     fun openMainActivity() {
